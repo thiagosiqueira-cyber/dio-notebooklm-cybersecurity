@@ -1,0 +1,33 @@
+# 🛡️ Explore o OWASP Top 10 com NotebookLM
+
+## 📝 Contexto e Objetivos
+Este projeto foi desenvolvido como parte de um desafio prático na DIO, focando no uso da IA NotebookLM como ferramenta de aprendizagem ativa. O tema escolhido foi a segurança em aplicações web, especificamente o framework OWASP Top 10, devido à sua relevância crítica no cenário atual de cibersegurança.
+
+**Objetivos:**
+* Sintetizar as 10 principais vulnerabilidades web de 2021/2024.
+* Criar um guia prático de mitigação para desenvolvedores.
+* Testar a capacidade de curadoria e extração de insights da IA.
+
+## 📚 Fontes de Estudo
+Utilizei os seguintes documentos para alimentar o NotebookLM:
+1.  **PDF Oficial OWASP Top 10:2021** - Guia completo de vulnerabilidades.
+2.  **Relatórios de Ameaças 2024** - Dados de mercado sobre ataques reais.
+3.  **Documentação de Segurança para Devs** - Melhores práticas de codificação.
+4. A busca do Deep Research do próprio NotebookLM.
+
+## 🤖 Engenharia de Prompts (Testes de IA)
+Para obter os melhores resultados, utilizei as seguintes abordagens:
+* **Prompt de Síntese:** "Resuma a diferença entre 'Broken Access Control' e 'Insecure Design' com exemplos práticos."
+Onde ele conseguiu explicar a diferença de cada uma e mostrou exemplos praticos.
+* **Prompt de Auditoria:** "Aja como um Pentester e sugira um plano de testes para a falha de Injeção."
+Onde ele assumiu a identidade de um profissional Pentest e me deu um plano de teste com 5 possiveis passos.
+
+## 🚀 Miniguia de Aprendizagem (Resultados)
+*Aqui você coloca 3 ou 4 pontos principais que aprendeu com a ferramenta, por exemplo:*
+* **Lição 1:** O controle de acesso quebrado agora é o risco nº 1.
+* **Lição 2:** Segurança deve ser pensada desde o design (Shift-Left).
+
+## 🛠️ Ferramentas Utilizadas
+* [NotebookLM](https://notebooklm.google.com/)
+* [GitHub](https://github.com/)
+* Documentação OWASP
